@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D and 3D Viewer</title>
+	<link rel="icon" href="/favicon.png" type="image/x-icon">
+    <style>
+        #viewer {
+            border: 1px solid black;
+            width: 100%;
+            height: 90vh;
+        }
+    </style>
+</head>
+<body style="margin:20px;">
+    <select id="sectionDropdown"></select>
+    <div id="viewer"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="viewer.js"></script>
+</body>
+</html>
